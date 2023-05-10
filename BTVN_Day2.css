@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ads */
+.ads {
+    height: 56px;
+    width: 100%;
+}
+
+.ads-link {
+    height: 100%;
+    width: 100%;
+}
+
+.ads-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* menu */
+.menu {
+    height: 42px;
+    width: 100%;
+    background-color: #1435c3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 20px;
+}
+
+.menu-icon {}
+
+.menu-icon i {
+    display: inline-block;
+}
+
+.menu-text {
+    display: inline-block;
+    padding-left: 8px;
+}
+
+/* header */
+.header {
+    height: 88px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-item {
+    /* width: 100%; */
+    padding: 0 20px;
+}
+
+/* logo */
+.logo-link {
+    width: 251px;
+}
+
+.img {
+    object-fit: cover;
+    width: 251px;
+}
+
+/* search */
+.search {
+    min-width: 576px;
+    width: 100%;
+    height: 40px;
+    padding: 0;
+    margin: 1px;
+    border: solid 1px #ccc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.search-input {
+    padding: 6px 12px;
+    width: 100%;
+    border: none;
+}
+
+.search-button {
+    width: 36px;
+    height: 36px;
+    background-color: #1453C3;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.logo-link {}
+
+.img {}
+
+/* login */
+.login-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 130px;
+    text-decoration: none;
+    color: #82869E;
+}
+
+.login-icon i {
+    font-size: 24px;
+}
+
+.login-text {}
+
+.text {}
+
+.notification {
+    color: #82869E;
+    text-decoration: none;
+    width: 68px;
+}
+
+.notification i {
+    font-size: 24px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 160px;
+    text-decoration: none;
+    color: #82869E;
+}
+
+.cart-icon i {
+    font-size: 24px;
+}
+
+.cart-text {}
+
+.text {}
